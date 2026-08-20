@@ -1,0 +1,28 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Node.js
+node_modules/
+
+# Test reports
+playwright-report/
+test-results/
+
+# Temporary files
+*.tmp
+*.log
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
